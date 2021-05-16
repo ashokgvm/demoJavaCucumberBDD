@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="21.675801">
+<testcase classname="Open SwagLabs Page and validate online shoping details" name="Open SwagLabs HomePage and validate" time="12.240158">
+<system-out><![CDATA[When Open browser and login to SwagLabs Application.........................passed
+Then SwagLabs Login page should be displayed................................passed
+Then Enter standard_user and secret_sauce...................................passed
+Then swagLabs Homepage should be displayed..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Open SwagLabs Page and validate online shoping details" name="Open SwagLabs HomePage and validate 2" time="9.435643">
+<system-out><![CDATA[When Open browser and login to SwagLabs Application.........................passed
+Then SwagLabs Login page should be displayed................................passed
+Then Enter problem_user and secret_sauce....................................passed
+Then swagLabs Homepage should be displayed..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

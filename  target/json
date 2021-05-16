@@ -1,0 +1,80 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 155100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeTestCases()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Open SwagLabs HomePage and validate",
+        "description": "This is to check HomePage for swaglabs page",
+        "id": "open-swaglabs-page-and-validate-online-shoping-details;open-swaglabs-homepage-and-validate",
+        "after": [
+          {
+            "result": {
+              "duration": 109000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterTestCases()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 118760200,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "#Step1"
+              }
+            ],
+            "line": 7,
+            "name": "Open browser and login to SwagLabs Application",
+            "match": {
+              "location": "LoginPage.openBrowserAndLoginToSwagLabsApplication()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "SwagLabs Login page should be displayed",
+            "match": {
+              "location": "LoginPage.swaglabsLoginPageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Open SwagLabs Page and validate online shoping details",
+    "description": "",
+    "id": "open-swaglabs-page-and-validate-online-shoping-details",
+    "keyword": "Feature",
+    "uri": "LoginPage.feature"
+  }
+]

@@ -1,0 +1,260 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7554045400,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "#Step1"
+              }
+            ],
+            "line": 6,
+            "name": "Open browser and login to SwagLabs Application",
+            "match": {
+              "location": "LoginPage.openBrowserAndLoginToSwagLabsApplication()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123586100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "SwagLabs Login page should be displayed",
+            "match": {
+              "location": "LoginPage.swaglabsLoginPageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 579000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Open SwagLabs HomePage and validate",
+        "description": "Purpose of this TC\u0027s is to check HomePage for swaglabs page",
+        "id": "open-swaglabs-page-and-validate-online-shoping-details;open-swaglabs-homepage-and-validate;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 96800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterTestCases()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 590636500,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#Step1"
+              }
+            ],
+            "line": 12,
+            "name": "Enter standard_user and secret_sauce",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 6
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginPage.enterUserNameAndPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3971214200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "swagLabs Homepage should be displayed",
+            "match": {
+              "location": "LoginPage.swaglabsHomepageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@demoBackground"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5349800500,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 5,
+                "value": "#Step1"
+              }
+            ],
+            "line": 6,
+            "name": "Open browser and login to SwagLabs Application",
+            "match": {
+              "location": "LoginPage.openBrowserAndLoginToSwagLabsApplication()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75792400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "SwagLabs Login page should be displayed",
+            "match": {
+              "location": "LoginPage.swaglabsLoginPageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 97500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Open SwagLabs HomePage and validate",
+        "description": "Purpose of this TC\u0027s is to check HomePage for swaglabs page",
+        "id": "open-swaglabs-page-and-validate-online-shoping-details;open-swaglabs-homepage-and-validate;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 63600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterTestCases()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 481296500,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 11,
+                "value": "#Step1"
+              }
+            ],
+            "line": 12,
+            "name": "Enter problem_user and secret_sauce",
+            "match": {
+              "arguments": [
+                {
+                  "val": "problem_user",
+                  "offset": 6
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginPage.enterUserNameAndPassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3528592000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "swagLabs Homepage should be displayed",
+            "match": {
+              "location": "LoginPage.swaglabsHomepageShouldBeDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@demoBackground"
+          }
+        ]
+      }
+    ],
+    "name": "Open SwagLabs Page and validate online shoping details",
+    "description": "",
+    "id": "open-swaglabs-page-and-validate-online-shoping-details",
+    "keyword": "Feature",
+    "uri": "DemoBackground.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@demoBackground"
+      }
+    ]
+  }
+]
